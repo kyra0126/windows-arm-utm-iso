@@ -1,5 +1,20 @@
 # [Mac OS/M1] Installing Windows 11 Virtual Machine on UTM
 
+> **Jump to Section:**  
+> - [Environment](#environment)  
+> - [Installation Methods: VHDX vs ISO](#two-main-installation-methods-vhdx-vs-iso)  
+> - [ISO Installation Method](#iso-installation-method)  
+>   - [Quick Summary](#quick-summary)  
+>   - [Step-by-Step Instructions](#step-by-step-instructions)  
+>     - [1. Download Windows 11 ARM64 ISO](#1-download-windows-11-arm64-iso)  
+>     - [2. Install UTM](#2-install-utm)  
+>     - [3. Create a New Windows VM](#3-create-a-new-windows-vm)  
+>     - [4. Start the VM and Connect to Internet](#4-start-the-vm-and-connect-to-internet)  
+>     - [5. Change Region / Language Settings](#5-change-region--language-settings)  
+> - [Troubleshooting](#troubleshooting)  
+>   - [VM boots but OS doesn’t start](#vm-boots-but-os-doesnt-start)
+
+
 ## Environment
 
 - **Chip**: MacBook M1 Pro  
